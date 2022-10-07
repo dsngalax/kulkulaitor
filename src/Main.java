@@ -16,8 +16,7 @@ public class Main {
             Scanner agh = new Scanner(System.in);
             double a = agh.nextDouble();
             System.out.print("Введите b=");
-            Scanner bgh = new Scanner(System.in);
-            double b = bgh.nextDouble();
+            double b = agh.nextDouble();
             System.out.println("a+b=" + (a+b));
         }
         // здесь берётся 2 действие
@@ -26,8 +25,7 @@ public class Main {
             Scanner agh = new Scanner(System.in);
             double a = agh.nextDouble();
             System.out.print("Введите b=");
-            Scanner bgh = new Scanner(System.in);
-            double b = bgh.nextDouble();
+            double b = agh.nextDouble();
             System.out.println("a-b=" + (a-b));
         }
 
@@ -36,8 +34,7 @@ public class Main {
             Scanner agh = new Scanner(System.in);
             double a = agh.nextDouble();
             System.out.print("Введите b=");
-            Scanner bgh = new Scanner(System.in);
-            double b = bgh.nextDouble();
+            double b = agh.nextDouble();
             System.out.println("a*b=" + (a*b));
         }
         else if (num==4){
@@ -45,8 +42,7 @@ public class Main {
             Scanner agh = new Scanner(System.in);
             double a = agh.nextDouble();
             System.out.print("Введите b=");
-            Scanner bgh = new Scanner(System.in);
-            double b = bgh.nextDouble();
+            double b = agh.nextDouble();
             System.out.println("a/b=" + (a/b));
         }
         // система с дискриминантом
@@ -55,11 +51,9 @@ public class Main {
             Scanner agh = new Scanner(System.in);
             double a = agh.nextDouble();
             System.out.print("Введите b=");
-            Scanner bgh = new Scanner(System.in);
-            double b = bgh.nextDouble();
+            double b = agh.nextDouble();
             System.out.print("Введите с=");
-            Scanner cgh =new Scanner(System.in);
-            double c = cgh.nextDouble();
+            double c = agh.nextDouble();
             double D = b*b-4*a*c;
             if (D>0){
                 double x1=(-1*b-Math.sqrt(D))/(2*a);
