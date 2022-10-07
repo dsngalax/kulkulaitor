@@ -80,9 +80,8 @@ public class Main {
             }
             }
         // да я мог избавится от if но мне так больше нравится
-        else if (num>5){
-            System.out.println("Правильно выберете действие");
-        }
+        else
+            System.out.println("неправильно выбранно действие");
         }
     }
 
