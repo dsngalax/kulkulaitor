@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public  static  void main(String[] args) {
-        int n=0;
         System.out.println("1- a+b");
         System.out.println("2- a-b");
         System.out.println("3- a*b");
